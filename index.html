@@ -7,15 +7,25 @@
     <title>Operadores Lógicos</title>
     <script>
 
-        var variavel1 = 10
-        var variavel2 = 20
+       //true && true && false = false
+       /*
+       if (!( 4== 4 )) {
+          document.write("verdadeiro")
+       } else {
+           document.write("falso")
+       } */
 
-        //variavel1 = parseInt(variavel1)
-       // variavel2 = parseFloat(variavel2)
+       var nota = prompt('digite a nota: ')
+       var media = 7
+       var falta = prompt('digite faltas: ')
 
-        console.log(variavel1, variavel2)
+       if (nota >= media &&  falta <= 10) {
+           document.write("Aprovado")
 
-        document.write( variavel1.toString()  + variavel2.toString() )
+       } else {
+           document.write("Reprovado")
+       }
+
 
     </script>
 </head>
